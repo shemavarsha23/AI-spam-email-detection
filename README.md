@@ -1,37 +1,54 @@
 # AI-spam-email-detection
 AI powered spam email detection using machine learning
 AI-Powered Spam E-Mail Detection
+AI-Powered Spam Email Detection
 
-Project Overview
+Abstract
 
-This project uses Artificial Intelligence and Machine Learning to identify and classify email messages into Spam and Ham (Legitimate) categories.
-
-Problem Statement
-
-The increasing number of spam emails creates security risks and wastes users' time. This project aims to develop an intelligent system to detect unwanted emails automatically.
+AI-Powered Spam Email Detection is a machine learning project that identifies whether an email is Spam or Not Spam. It uses Natural Language Processing and the Naive Bayes algorithm to classify email messages automatically.
 
 Objectives
 
-- Detect spam emails automatically.
-- Classify emails into Spam and Ham.
+- Identify unwanted spam emails.
+- Classify emails automatically.
 - Improve email security.
 - Reduce unwanted messages.
-- Evaluate model performance.
 
 Technologies Used
 
 - Python
 - Machine Learning
 - Natural Language Processing
+- Scikit-learn
+- Naive Bayes Algorithm
 
-Key Features
+Project Structure
 
-- Email text input
-- Automatic spam detection
-- Spam and Ham classification
-- Three-band review result
-- Performance evaluation
+- "source-code/" – Python source code
+- "dataset/" – Dataset files
+- "screenshots/" – Program output screenshots
+- "requirements.txt" – Required Python library
 
-Expected Outcome
+How to Run
 
-A simple and user-friendly application that helps users identify potentially suspicious emails.
+1. Install Python.
+2. Install the required library:
+   "pip install -r requirements.txt"
+3. Run the program:
+   "python spam_detection.py"
+4. Enter an email message to check its prediction.
+5. Type "exit" to stop the program.
+
+Algorithm
+
+Multinomial Naive Bayes
+
+Output
+
+The system predicts whether the entered email is Spam or Not Spam.
+
+Conclusion
+
+This project demonstrates how machine learning can be used to classify email messages. It provides a basic demonstration of automated spam detection using Python.
+
+Note: This is a small demonstration model trained on sample email messages. Its accuracy should not be treated as real-world performance.
